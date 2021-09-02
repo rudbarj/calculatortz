@@ -37,11 +37,12 @@ public class Main {
 		
 		String input = scanner.nextLine();
 		
-		if(input.length() > 11) {
+		String[] arrayInput = input.split(" ");
+		
+		if (arrayInput.length > 3) {
 			System.out.println("Формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
 			System.exit(0);
 		}
-		String[] arrayInput = input.split(" ");
 		
 		int local = 0;
 		int local2 = 0;
