@@ -130,10 +130,14 @@ public class Main {
 						}
 						
 						
+						
 						if (result2 < 0) {
 							System.out.println("¬ римской системе нет отрицательных чисел");
 						}
 						
+						if (result2 == 1) {
+							result3 = "I";
+						}
 						if (result2 == 2) {
 							result3 = "II";
 						}
